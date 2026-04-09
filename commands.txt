@@ -1,0 +1,5 @@
+# module testing
+yolo detect train model=ultralytics/cfg/models/11/reinforce_yaml/yolo11s-testing.yaml data=hs-cmu/data.yaml batch=4 epochs=100 imgsz=640 workers=0 device=0 pretrained=weights/yolo11s.pt cache=True
+
+# baseline models test
+yolo detect train model=ultralytics/cfg/models/v5/yolov5[].yaml data=hs-cmu/data.yaml batch=52 epochs=100 imgsz=640 workers=0 device=0 pretrained=weights/yolo cache=True
