@@ -155,6 +155,7 @@ ultralytics/cfg/models/v8/yolov8-seg.yaml
 ultralytics/cfg/models/v8/yolov8-world.yaml
 ultralytics/cfg/models/v8/yolov8-worldv2.yaml
 ultralytics/cfg/models/v8/yolov8.yaml
+ultralytics/cfg/models/v8/reinforce_yaml/yolov8-FCM.yaml
 ultralytics/cfg/models/v9/yolov9c-seg.yaml
 ultralytics/cfg/models/v9/yolov9c.yaml
 ultralytics/cfg/models/v9/yolov9e-seg.yaml
