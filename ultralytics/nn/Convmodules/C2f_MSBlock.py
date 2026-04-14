@@ -158,7 +158,7 @@ class C2fMSBlockExp(C2f):
     """
 
     def __init__(self, c1: int, c2: int, n: int = 1, shortcut: bool = False, g: int = 1, e: float = 0.5,
-                 branches: int = 3, k: int = 3, expand_ratio: float = 2.0, act: bool = True):
+                 branches: int = 5, k: int = 3, expand_ratio: float = 2.0, act: bool = True):
         """
         参数:
             c1, c2, n, shortcut, g, e : 与 C2f 接口保持一致
@@ -187,7 +187,7 @@ if __name__ == "__main__":
         shortcut=False,
         g=1,
         e=0.5,
-        branches=3,
+        branches=5,
         k=3,
         expand_ratio=2.0,
         act=True
